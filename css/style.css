@@ -17,11 +17,8 @@ body {
   background-color: #F7F7F7; }
 
 .container {
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 0 auto; }
-
-header {
-  background-color: white; }
 
 .header__top, .header__bottom {
   width: 100%;
@@ -254,6 +251,9 @@ header {
 .mb-15 {
   margin-bottom: 15px; }
 
+.mr-15 {
+  margin-right: 15px; }
+
 .arrow {
   position: relative;
   width: 60px;
@@ -284,3 +284,98 @@ header {
 
 .arrow:hover .arrow__img--hidden {
   display: block; }
+
+.content {
+  width: 100%;
+  background-color: #F7F7F7; }
+
+.content__container {
+  width: 1180px;
+  height: 520px;
+  display: flex;
+  margin: 0 auto; }
+
+.content__leftside {
+  width: 50%; }
+
+.content__rightside {
+  width: 50%;
+  position: relative;
+  background: url("../../images/build1.png") center/cover; }
+
+.content__wrap {
+  display: flex;
+  align-items: center; }
+
+.content__promo {
+  position: absolute;
+  right: 0;
+  width: 229px;
+  padding: 13px 20px;
+  background: #F0F0F0;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  border-radius: 0 0 0 4px; }
+
+.content__icon {
+  width: 14px;
+  height: 14px; }
+
+.content__icon--secondary {
+  width: 18px;
+  height: 13px; }
+
+.content__promo-text {
+  font-family: "Roboto-Regular",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #404853; }
+
+.content__btn {
+  position: absolute;
+  bottom: 33px;
+  right: 190px; }
+
+.content__leftside {
+  padding: 35px 40px 40px 35px; }
+
+.content__leftside {
+  display: flex;
+  flex-direction: column;
+  background-color: white; }
+
+.content__title {
+  font-family: "Roboto-Medium",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1F252D;
+  margin: 0; }
+
+.content__text-heavy {
+  font-family: "Roboto-Regular",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1F252D; }
+
+.content__text-light {
+  font-family: "Roboto-Light",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  color: #1F252D;
+  mix-blend-mode: normal;
+  opacity: 0.6; }
+
+.content__address, .content__text-heavy {
+  font-size: 14px;
+  line-height: 16px; }
+
+.content__text-light--flat {
+  width: 230px; }
