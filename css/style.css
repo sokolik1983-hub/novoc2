@@ -1,0 +1,127 @@
+@font-face {
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-family: Roboto-Medium; }
+
+@font-face {
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-family: Roboto-Regular; }
+
+@font-face {
+  src: url("../fonts/Roboto-Light.ttf");
+  font-family: Roboto-Regular; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7; }
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+header {
+  background-color: white; }
+
+.header__top, .header__bottom {
+  width: 100%;
+  background-color: #F7F7F7; }
+
+.header__bottom {
+  background-color: white; }
+
+.header__container, .header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__logo {
+  width: 187px;
+  height: 145px;
+  position: relative;
+  background-color: #74CFB7; }
+
+.header__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.header__text {
+  font-family: "Roboto-Light",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1F252D;
+  margin: 5px; }
+
+.header__text--bold {
+  font-family: "Roboto-Medium",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1F252D; }
+
+.header__menu {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0;
+  word-spacing: -.36em; }
+
+.header__item {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Roboto-Medium",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 26px 0; }
+
+.header__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #404853;
+  padding: 0 18px;
+  transition: .3s; }
+
+.header__link--border {
+  border-right: 1px solid #E1E1E1; }
+
+.header__item--icon {
+  margin-left: 36px; }
+
+.header__link:hover {
+  opacity: 0.5; }
+
+.header__box {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  background: url("../../images/search icon.png");
+  transition: .3s; }
+
+.header__box:hover {
+  background: url("../../images/hover.png"); }
+
+.btn {
+  font-family: "Roboto-Regular", Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #74CFB7;
+  padding: 16px 50px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: .3s; }
+
+.btn:hover {
+  background-color: #079FC2;
+  box-shadow: 0 4px 10px rgba(116, 207, 183, 0.455022); }
