@@ -1,0 +1,26 @@
+.promo {
+  background: url("../../images/bg.png") center/cover;
+  width: 100%;
+  height: 419px;
+}
+.promo__container {
+  border-top: 3px solid #74CFB7;
+  text-align: center;
+}
+.promo__title {
+  font-family: "Roboto-Medium",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  margin-top: 72px;
+}
+.promo__search-room {
+  width: 100%;
+  height: 191px;
+  background-color: white;
+  box-shadow: 0 11px 49px rgba(0, 0, 0, 0.240178);
+  border-radius: 4px;
+  margin-bottom: 71px;
+}

@@ -17,7 +17,8 @@ header {
   width: 187px;
   height: 145px;
   position: relative;
-  background-color: #74CFB7; }
+  background-color: #74CFB7;
+  cursor: pointer; }
 
 .header__img {
   position: absolute;
