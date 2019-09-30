@@ -120,9 +120,19 @@ body {
   border-radius: 4px;
   transition: .3s; }
 
+.btn__container {
+  text-align: center;
+  padding: 66px 0; }
+
 .btn:hover {
   background-color: #74CFB7;
   box-shadow: 0 4px 10px rgba(116, 207, 183, 0.455022); }
+
+.btn__secondary {
+  background-color: #74CFB7; }
+
+.btn__secondary:hover {
+  background-color: #079FC2; }
 
 .promo {
   background: url("../../images/bg.png") center/cover;
@@ -248,6 +258,9 @@ body {
 .mt-10 {
   margin-top: 10px; }
 
+.mt-40 {
+  margin-top: 40px; }
+
 .mb-15 {
   margin-bottom: 15px; }
 
@@ -263,8 +276,23 @@ body {
 .pl-0 {
   padding-left: 0; }
 
+.pt-40 {
+  padding-top: 40px; }
+
 .pt-60 {
   padding-top: 60px; }
+
+.pt-80 {
+  padding-top: 80px; }
+
+.pb-40 {
+  padding-bottom: 40px; }
+
+.pb-60 {
+  padding-bottom: 60px; }
+
+.pb-80 {
+  padding-bottom: 80px; }
 
 .arrow {
   position: relative;
@@ -318,6 +346,12 @@ body {
   width: 50%;
   position: relative;
   background: url("../../images/build1.png") center/cover; }
+
+.content__rightside--second {
+  background: url("../../images/bg2.png"); }
+
+.content__rightside--third {
+  background: url("../../images/Bitmap.png"); }
 
 .content__wrap {
   display: flex;
@@ -451,3 +485,54 @@ body {
 
 .content__link:hover .content__text-btn {
   color: white; }
+
+footer {
+  width: 100%;
+  background-color: white;
+  padding: 100px 0 0; }
+
+.footer__container {
+  border: 1px solid #E7E7E7; }
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between; }
+
+.footer__inner {
+  display: flex;
+  align-items: center; }
+
+.footer__img, .footer__icon {
+  padding-right: 25px; }
+
+.footer__content {
+  padding: 0 100px 0; }
+
+.footer__title {
+  padding: 69px 0 29px;
+  margin: 0; }
+
+.footer__text, .footer__subtext {
+  font-family: "Roboto-Light",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1F252D;
+  margin: 0; }
+
+.footer__icon-text {
+  margin: 0;
+  padding: 0; }
+
+.footer__box {
+  display: flex;
+  align-items: center; }
+
+.footer__title-sub {
+  padding: 26px 0 42px;
+  margin: 0; }
+
+.footer__subtext {
+  font-size: 14px;
+  line-height: 16px; }

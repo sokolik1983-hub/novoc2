@@ -12,7 +12,17 @@
   border-radius: 4px;
   transition: .3s;
 }
+.btn__container {
+  text-align: center;
+  padding: 66px 0;
+}
 .btn:hover {
   background-color: #74CFB7;
   box-shadow: 0 4px 10px rgba(116, 207, 183, 0.455022);
+}
+.btn__secondary {
+  background-color: #74CFB7;
+}
+.btn__secondary:hover {
+  background-color: #079FC2;
 }
