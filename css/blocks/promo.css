@@ -3,6 +3,11 @@
   width: 100%;
   height: 419px; }
 
+.promo__wrap {
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 4px; }
+
 .promo__container {
   border-top: 3px solid #74CFB7;
   text-align: center; }
@@ -17,9 +22,52 @@
   margin-top: 72px; }
 
 .promo__search-room {
-  width: 100%;
+  position: relative;
+  padding: 28px;
+  max-width: 1180px;
   height: 191px;
   background-color: white;
   box-shadow: 0 11px 49px rgba(0, 0, 0, 0.240178);
   border-radius: 4px;
-  margin-bottom: 71px; }
+  margin: 0 auto 71px; }
+
+.promo__box {
+  width: 820px; }
+
+.promo__text {
+  text-align: left;
+  font-family: "Roboto-Light",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1F252D; }
+
+.promo__select {
+  bottom: 28px;
+  width: 171px;
+  height: 45px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 15px 20px 15px 15px; }
+
+select {
+  background: url("../../images/arrow.svg") no-repeat right 20px center/11px auto;
+  cursor: pointer; }
+
+.promo__select--secondary {
+  width: 200px;
+  border-left: 1px solid lightgrey; }
+
+.promo__btn {
+  border: none;
+  width: 150px;
+  background-color: #079FC2;
+  border-radius: 4px;
+  color: white; }
+
+.promo__btn:hover {
+  background-color: #74CFB7;
+  box-shadow: 0 4px 10px rgba(116, 207, 183, 0.455022); }

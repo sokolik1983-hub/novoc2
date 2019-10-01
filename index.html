@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novoc2</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.css">
+
+
 </head>
 <body>
 <header>
@@ -51,7 +55,54 @@
     <section class="promo">
         <div class="container promo__container">
             <h1 class="promo__title">Купить квартиру в новостройке</h1>
-            <div class="promo__search-room"></div>
+            <div class="promo__search-room">
+                <form action="index.html">
+                    <div class="promo__box">
+                        <p class="promo__text m-0">Стоимость, млн. руб.</p>
+                        <input type="text" class="js-range-slider" name="my_range" value="" id="my_range" />
+                        <label for="my_range"></label>
+                    </div>
+                    <div class="promo__wrap">
+                            <label for="Metro">
+                                <select class="promo__select" id="Metro" name="metro">
+                                    <option disabled selected style="color:grey" value="">Станция метро</option>
+                                    <option label="Алтуфьево" id="metro1">Алтуфьево</option>
+                                    <option label="Бибирево" id="metro2">Бибирево</option>
+                                    <option label="Отрадное" id="metro3">Отрадное</option>
+                                </select>
+                            </label>
+                        <label for="Type">
+                            <select class="promo__select promo__select--secondary" id="Type" name="type">
+                                <option disabled selected style="color:grey" value="">Тип жилья</option>
+                                <option label="Первичка" id="type1">Первичка</option>
+                                <option label="Вторичка" id="type2">Вторичка</option>
+                            </select>
+                        </label>
+                        <label for="Area">
+                            <select class="promo__select promo__select--secondary" id="Area" name="area">
+                                <option disabled selected style="color:grey" value="">Площадь</option>
+                                <option label="35-40" id="area1">35-40</option>
+                                <option label="45-55" id="area2">45-55</option>
+                            </select>
+                        </label>
+                        <label for="Repair">
+                            <select class="promo__select promo__select--secondary" id="Repair" name="repair">
+                                <option disabled selected style="color:grey" value="">Тип отделки</option>
+                                <option label="Бетон" id="repair1">Бетон</option>
+                                <option label="Чистовая" id="repair2">Чистовая</option>
+                            </select>
+                        </label>
+                        <label for="Complete">
+                            <select class="promo__select promo__select--secondary" id="Complete" name="complete">
+                                <option disabled selected style="color:grey" value="">Срок сдачи</option>
+                                <option label="2019" id="complete1">2019</option>
+                                <option label="2020" id="complete2">2020</option>
+                            </select>
+                        </label>
+                        <input type="submit" value="Найти" class="promo__btn">
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <section class="map">
@@ -387,5 +438,9 @@
     </div>
 </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>
