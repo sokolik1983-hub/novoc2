@@ -66,6 +66,12 @@ background: url("../../images/bg2.png");
   width: 18px;
   height: 13px;
 }
+.content__item {
+  padding-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .content__promo-text {
   font-family: "Roboto-Regular",Helvetica,sans-serif;
   font-style: normal;
@@ -145,10 +151,9 @@ background: url("../../images/bg2.png");
 .content__link--first {
   margin-left: 25px;
 }
-.content__icon {
+.content__svg {
   padding-right: 7px;
-  background: url("../../images/house (1).svg") no-repeat;
-  //fill: white;
+  transition: .3s;
 }
 .content__text-btn  {
   font-family: "Roboto-Medium",Helvetica,sans-serif;
@@ -165,4 +170,7 @@ background: url("../../images/bg2.png");
 }
 .content__link:hover .content__text-btn {
   color: white;
+}
+.content__link:hover .content__svg {
+  fill: white;
 }

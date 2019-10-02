@@ -25,3 +25,39 @@
 
 .btn__secondary:hover {
   background-color: #079FC2; }
+
+.btn__vertical {
+  cursor: pointer;
+  position: fixed;
+  text-align: center;
+  right: 0;
+  width: 70px;
+  height: 64px;
+  background-color: #74CFB7;
+  z-index: 999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: .3s; }
+
+.btn__vertical:hover {
+  background-color: #079FC2; }
+
+.btn__img {
+  padding: 10px 0 5px; }
+
+.btn__vertical-text {
+  font-family: "Roboto-Regular", Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF; }
+
+@media only screen and (max-width: 1024px) {
+  .btn {
+    margin-bottom: 10px; } }
+
+@media only screen and (max-width: 414px) {
+  .btn__vertical {
+    opacity: .8; } }

@@ -20,11 +20,5 @@
   width: 28px;
   height: 32px; }
 
-.arrow__img--hidden {
-  display: none; }
-
-.arrow:hover .arrow__img {
-  display: none; }
-
-.arrow:hover .arrow__img--hidden {
-  display: block; }
+.arrow:hover .arrow__svg {
+  fill: #079FC2; }

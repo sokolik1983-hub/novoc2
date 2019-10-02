@@ -2,10 +2,10 @@
 $(".js-range-slider").ionRangeSlider({
     type: "double",
     skin: "big",
-    min: 0,
-    max: 10000,
-    from: 0,
-    to: 10000,
+    min: 1,
+    max: 69,
+    from: 1,
+    to: 69,
     onChange: function (data) {
         console.dir(data);
     }
