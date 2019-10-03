@@ -22,3 +22,7 @@
 
 .arrow:hover .arrow__svg {
   fill: #079FC2; }
+
+@media only screen and (max-width: 1024px) {
+  .arrow {
+    display: none; } }

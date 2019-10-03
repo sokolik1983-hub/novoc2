@@ -83,7 +83,7 @@ select {
   background-color: #74CFB7;
   box-shadow: 0 4px 10px rgba(116, 207, 183, 0.455022); }
 
-.input[type="radio"] {
+.promo__radiobox {
   display: none; }
 
 .promo__radiobox + .promo__label {
@@ -115,11 +115,25 @@ select {
 .promo__radiobox:checked + .promo__label:after {
   opacity: 1; }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1224px) {
   .promo__wrap {
     flex-direction: column;
     align-items: center; }
   .promo__search-room {
-    width: 90%; }
+    width: 90%;
+    padding: 25px 5px; }
   .promo__box {
-    width: 90%; } }
+    width: 90%; }
+  .promo__wrap--selects {
+    margin: 0 auto;
+    width: 80%; }
+  .promo__wrap--selects label {
+    width: 100%; }
+  .promo__select {
+    width: 100%;
+    border-bottom: 1px solid lightgrey; }
+  .promo__select--secondary {
+    border-left: none; }
+  .promo__btn {
+    width: 100%;
+    padding: 5px 0; } }
